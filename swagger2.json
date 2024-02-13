@@ -1,1 +1,10 @@
-{"name":"discovery","location":"/v2/api-docs?group=discovery","swaggerVersion":"2.0"}
+ "definitions" : {
+    "Pet" : {
+      "properties" : {
+        ...
+        "petName" : {
+          "$ref" : "#/"
+        }
+        ...
+      }
+    }
